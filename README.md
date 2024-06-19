@@ -21,6 +21,8 @@ A recording demonstrating how MINT can be used, including a high level explanati
 
 [![A demo and explanation of MINT as shown on ICT.Open 2023](https://img.youtube.com/vi/VbTdEc23yX8/0.jpg)](https://www.youtube.com/watch?v=VbTdEc23yX8)
 
+A published paper is also available here: [Rodríguez-Valdés, O., van der Vlist, K., van Dalen, R., Marín, B., Vos, T.E.J. (2024). Scriptless and Seamless: Leveraging Probabilistic Models for Enhanced GUI Testing in Native Android Applications. In: Araújo, J., de la Vara, J.L., Santos, M.Y., Assar, S. (eds) Research Challenges in Information Science. RCIS 2024. Lecture Notes in Business Information Processing, vol 514. Springer, Cham.](https://doi.org/10.1007/978-3-031-59468-7_10)
+
 MINT is a testing tool complementary to existing testing tooling. It uses a probabilistic model that applies (customizable) rules to detect and (de)prioritize UI interactions during action selection. Because of this, we can automatically explore native Android applications without requiring human interaction to create and maintain test scripts. During exploration, we leverage so called oracles to measure the desired behavior of the system under test. These oracles produce verdicts, which records something about a specific of the SUT. All these oracles are composable, providing a continuous and multidimensional measurement of your SUT. A reporting tool allows for interactive exploration of the recorded system interactions, providing insight in the specific behaviour of the SUT. By interpreting these verdicts, the general quality and the CX then be improved. This work draws inspiration from the [TESTAR](https://github.com/TESTARtool/TESTAR_dev) community. 
 
 Main characteristics of MINT:  
